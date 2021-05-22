@@ -1,0 +1,44 @@
+.main{
+    padding: 30px;
+    text-align: center;
+    background-color: rgb(247, 243, 243);
+
+}
+.main1{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    text-align: center;   
+}
+.subMain{
+    max-width: 50%;
+    background-color: white;
+    border-radius: 10px;
+    margin: 30px 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+/* .subMainTwo{
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 30px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    
+} */
+.leftDiv{
+    width: 60%;
+    text-align: start;
+}
+.rightDiv{
+    width: 40%;
+}
+.heading{
+    
+    font-size: 4em;
+}

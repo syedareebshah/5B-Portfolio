@@ -1,0 +1,22 @@
+.main{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    margin: 80px auto;
+    color: white;
+    text-align: center;
+    min-height: 500px;
+    background-image: url('../../assets/bg.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center; 
+    background-size: cover;
+}
+.rightDiv{
+    text-align: center;
+    width: 50%;
+}
+
+.leftDiv{
+    width: 50%;
+}
