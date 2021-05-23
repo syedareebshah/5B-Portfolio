@@ -1,12 +1,15 @@
 import style from './service.module.css'
 import webPic from '../../assets/web-development.gif'
 import MObPic from '../../assets/mobile_development2.gif'
+import Prec from '../Prec'
 
 export default function Service() {
+       
     return (
         <div className={style.main}>
             <h1 className={style.heading}>Services</h1>
-            <div className={style.main1}>
+            <Prec />
+            {/* <div className={style.main1}>
 
             <div className={style.subMain}>
                 <div className={style.leftDiv}>
@@ -36,7 +39,7 @@ export default function Service() {
                 </div>
             </div>
             
-        </div>
+        </div> */}
         </div>
 
     )

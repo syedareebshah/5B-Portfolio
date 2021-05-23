@@ -2,6 +2,8 @@ import './App.css';
 import NavBar from './comp/nav/nav';
 import Home from './comp/home/home'
 import Service from './comp/Services/service';
+import Prec from './comp/Prec';
+
 
 function App() {
   return (
