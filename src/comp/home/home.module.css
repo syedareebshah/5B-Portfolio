@@ -12,11 +12,17 @@
     background-position: center; 
     background-size: cover;
 }
-.rightDiv{
+.rightDiv,.leftDiv{
     text-align: center;
     width: 50%;
 }
 
-.leftDiv{
-    width: 50%;
-}
+@media only screen and (max-width: 590px) {
+    .main {
+        flex-direction: column;
+    }.leftDiv,.rightDiv{
+        width: 100% ;
+    }
+    
+
+    }

@@ -26,6 +26,7 @@ export default function NavBar() {
                 <label className="logo">S.Areeb</label>
                 <ul>
                     <li><a className="active" href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
                     <li><a href="#">Services</a></li>
                     <li><a href="#">Portfolio</a></li>
                     <li><a href="#">Contact</a></li>

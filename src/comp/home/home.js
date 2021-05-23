@@ -1,6 +1,6 @@
 import style from './home.module.css'
 import mainImg from '../../assets/mainOne.gif'
-import TypingCom from '../typingComp';
+import TypingCom from './typingComp';
 
 export default function Home(){
     
