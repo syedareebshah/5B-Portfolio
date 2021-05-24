@@ -6,7 +6,7 @@ import Prec from '../Prec'
 export default function Service() {
        
     return (
-        <div className={style.main}>
+        <div id='Service' className={style.main}>
             <h1 className={style.heading}>Services</h1>
             <Prec />
             {/* <div className={style.main1}>

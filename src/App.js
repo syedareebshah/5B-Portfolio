@@ -8,17 +8,18 @@ import Zoom from 'react-reveal/Zoom';
 import Anim from './comp/Anim';
 import About from './comp/About/About';
 import Contact from './comp/Contact/Contact';
+import Porfolio from './comp/Portfolio/Portfolio';
 
 function App() {
   return (
     <div style={{backgroundColor:'#E5F1FB'}}>
       <NavBar />
       <Home />
+      {/* <Service /> */}
       <h1>Services</h1>
       <About />
-      <h1>Portfolio</h1>
+      <Porfolio />
       <Contact />
-      
       
     </div>
   );

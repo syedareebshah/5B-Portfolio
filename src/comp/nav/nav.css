@@ -9,11 +9,20 @@
   body{
     font-family: montserrat;
   }
-  nav{
+  .navBar{
     position: fixed;
     top: 0px;
-      z-index: 1;
-    background: #150D45 !important;
+    z-index: 1;
+    background: #150D45;
+    height: 80px;
+    width: 100%;
+  }
+  .navBarScroll{
+    position: fixed;
+    top: 0px;
+    z-index: 1;
+    background: #243066;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     height: 80px;
     width: 100%;
   }
@@ -24,24 +33,42 @@
     padding: 0 100px;
     font-weight: bold;
   }
-  nav ul{
+  .navBarScroll ul{
     float: right;
     margin-right: 20px;
   }
-  nav ul li{
+  .navBar ul{
+    float: right;
+    margin-right: 20px;
+  }
+  .navBar ul li{
     display: inline-block;
     line-height: 80px;
     margin: 0 5px;
   }
-  nav ul li a{
+  .navBarScroll ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+  }
+  .navBar ul li a{
     color: white;
     font-size: 17px;
     padding: 7px 13px;
     border-radius: 3px;
     text-transform: uppercase;
   }
-  a.active,a:hover{
-    background: #1b9bff;
+  .navBarScroll ul li a{
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+  }
+  a.active,.act:hover{
+    border-top: 5px solid rgb(0, 145, 255);
+  border-bottom: 5px solid rgb(0, 145, 255);
+    /* background: #1b9bff; */
     transition: .5s;
   }
   .checkbtn{
@@ -61,7 +88,10 @@
       font-size: 30px;
       padding-left: 50px;
     }
-    nav ul li a{
+    .navBar ul li a{
+      font-size: 16px;
+    }
+    .navBarScroll ul li a{
       font-size: 16px;
     }
   }
@@ -79,12 +109,20 @@
       text-align: center;
       transition: all .5s;
     }
-    nav ul li{
+    .navBarScroll ul li{
       display: block;
       margin: 50px 0;
       line-height: 30px;
     }
-    nav ul li a{
+    .navBar ul li{
+      display: block;
+      margin: 50px 0;
+      line-height: 30px;
+    }
+    .navBar ul li a{
+      font-size: 20px;
+    }
+    .navBarScroll ul li a{
       font-size: 20px;
     }
     a:hover,a.active{
@@ -100,14 +138,7 @@
       ul{
           top: 80px;
       }
-
   }
 
-.navbar{
-  z-index: 1;
-  background: #8fd114;
-  height: 80px;
-  width: 100%;
-}
 
-  
+

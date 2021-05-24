@@ -5,7 +5,7 @@ import TypingCom from './typingComp';
 export default function Home(){
     
     return(
-        <div className={style.main}>
+        <div id='Home' className={style.main}>
             <div className={style.rightDiv}>
                 <TypingCom />
             </div>

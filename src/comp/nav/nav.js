@@ -1,5 +1,5 @@
 import './nav.css'
-import {useState} from 'react';
+import { useState } from 'react';
 
 
 export default function NavBar() {
@@ -17,19 +17,22 @@ export default function NavBar() {
     window.addEventListener('scroll', changeNavbarColor);
 
     return (
-        <div>
-            <nav>
+        <div> 
+            <nav className={colorChange ? 'navBarScroll' : 'navBar'}>
+            {/* <div className={colorChange ? 'xyz' : 'bgi'}>
+                hy
+            </div> */}
                 <input type="checkbox" id="check" />
                 <label for="check" className="checkbtn">
                     <i className="fas fa-bars"></i>
                 </label>
                 <label className="logo">S.Areeb</label>
                 <ul>
-                    <li><a className="active" href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a className='act' href="#Home">Home</a></li>
+                    <li><a className='act' href="#About">About</a></li>
+                    <li><a className='act' href="#Service">Services</a></li>
+                    <li><a className='act' href="#Portfolio">Portfolio</a></li>
+                    <li><a className='act' href="#Contact">Contact</a></li>
                 </ul>
             </nav>
         </div>
